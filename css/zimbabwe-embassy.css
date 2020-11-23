@@ -166,6 +166,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 5px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -211,7 +212,7 @@ a {
   border-radius: 8px;
   background-color: #e00000;
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -1219,6 +1220,53 @@ a {
   max-width: none;
 }
 
+.heading-3-copy {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.heading-3-copy.two {
+  overflow: hidden;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.heading-3-copy.three {
+  display: none;
+}
+
+.heading-3-copy.four {
+  display: none;
+}
+
+.heading-3-copy {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.heading-3-copy.two {
+  overflow: hidden;
+  height: 20px;
+  max-width: 550px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.heading-3-copy.three {
+  display: none;
+}
+
+.heading-3-copy.four {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .heading.remove-buttom-margin {
     font-size: 22px;
@@ -1429,9 +1477,54 @@ a {
   .heading-24 {
     font-size: 24px;
   }
+
+  .heading-3-copy.two {
+    display: none;
+    overflow: hidden;
+    width: 400px;
+    max-width: 400px;
+  }
+
+  .heading-3-copy.three {
+    display: block;
+    overflow: hidden;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+
+  .heading-3-copy.four {
+    display: none;
+  }
+
+  .heading-3-copy.two {
+    display: none;
+    overflow: hidden;
+    width: 400px;
+    max-width: 400px;
+  }
+
+  .heading-3-copy.three {
+    display: block;
+    overflow: hidden;
+    margin-left: 5px;
+    font-weight: 400;
+  }
+
+  .heading-3-copy.four {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .heading.remove-buttom-margin {
+    line-height: 30px;
+  }
+
+  .heading.bold {
+    margin-top: 20px;
+    line-height: 30px;
+  }
+
   .heading-3.three {
     display: none;
   }
@@ -1440,6 +1533,24 @@ a {
     display: block;
     margin-left: 3px;
     font-weight: 400;
+  }
+
+  .heading-4 {
+    margin-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .heading-4-copy {
+    overflow: hidden;
+    height: 50px;
+  }
+
+  .paragraph-4 {
+    overflow: hidden;
+    height: 200px;
   }
 
   .footer-bottom {
@@ -1613,9 +1724,37 @@ a {
   .div-block-30 {
     width: auto;
   }
+
+  .heading-3-copy.three {
+    display: none;
+  }
+
+  .heading-3-copy.four {
+    display: block;
+    margin-left: 3px;
+    font-weight: 400;
+  }
+
+  .heading-3-copy.three {
+    display: none;
+  }
+
+  .heading-3-copy.four {
+    display: block;
+    margin-left: 3px;
+    font-weight: 400;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .image {
+    display: none;
+  }
+
+  .heading.remove-buttom-margin {
+    font-size: 17px;
+  }
+
   .div-block-2 {
     padding-right: 0px;
     padding-left: 0px;
@@ -1628,6 +1767,26 @@ a {
   .container.remove-bottom-padding {
     padding-right: 15px;
     padding-left: 15px;
+  }
+
+  .container.remove-both-top-bottom-padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .heading-5 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .heading-6 {
+    display: none;
+    font-size: 15px;
   }
 
   .footer-bottom {
@@ -1799,6 +1958,14 @@ a {
   .bold-text-5 {
     font-size: 27px;
     line-height: 25px;
+  }
+
+  .heading-3-copy.four {
+    display: none;
+  }
+
+  .heading-3-copy.four {
+    display: none;
   }
 }
 
